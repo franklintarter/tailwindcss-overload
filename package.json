@@ -1,7 +1,7 @@
 {
-  "name": "tailwind-overload",
+  "name": "tailwindcss-overload",
   "version": "0.0.1",
-  "description": "tailwind-overload",
+  "description": "tailwindcss-overload",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -39,9 +39,9 @@
     "react-dom": "^16.10.2"
   },
   "author": "Franklin Tarter <franklintarter@gmail.com>",
-  "homepage": "",
+  "homepage": "https://github.com/franklintarter/tailwindcss-overload",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/franklintarter/tailwindcss-overload",
   "keywords": [
     "react-component",
     "tailwindcss"
