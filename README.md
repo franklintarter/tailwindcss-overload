@@ -51,10 +51,16 @@ Paragraph.defaultClassNames = "text-gray-800 font-sans mb-6";
 export default Paragraph;
 ```
 
-Now calling `<Paragraph className="mb-2">...</Paragraph>` should result in the removal of the default `mb` utility and allow the overloaded utility to work regardless of "Cascading".
+Now when `<Paragraph className="mb-2">...</Paragraph>` is rendered the default `mb` is removed and the overloaded utility works regardless of "Cascading".
 
 ```html
 <p class="text-gray-800 font-sans mb-2">...</p>
 ```
 
-##
+### Contributing
+
+Issues, PRs and ideas welcome.
+
+### Next Steps
+
+Need to add more unit tests that cover large class strings, such as an extremely responsive component. For now I think most of the value comes out of overloading defaults of simple components like margin or color on Typography, widths or max-widths on Containers.. but we'll see.
