@@ -46,7 +46,7 @@ const Paragraph = ({ children, ...rest }) => {
   return <p {...rest}>{children}</p>;
 };
 
-Paragraph.defaultClassNames = "text-gray-800 font-sans mb-6";
+Paragraph.defaultClassName = "text-gray-800 font-sans mb-6";
 
 export default Paragraph;
 ```

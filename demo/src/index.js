@@ -8,14 +8,14 @@ const Paragraph = ({ children, ...rest }) => {
   return <p {...rest}>{children}</p>;
 };
 
-Paragraph.defaultClassNames = "font-light text-lg tracking-wide mb-6 text-body";
+Paragraph.defaultClassName = "font-light text-lg tracking-wide mb-6 text-body";
 
 const Overload = withTailwindOverload(Paragraph);
 
 const Demo = () => {
   return (
     <div>
-      <h1>tailwind-overload Demo</h1>
+      <h1>tailwindcss-overload Demo</h1>
       <Overload className="text-gray-500 mb-2 text-md font-hairline">
         Inspect me and check out my classes!
       </Overload>

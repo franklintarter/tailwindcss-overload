@@ -22,7 +22,7 @@ describe("withTailwindOverload", () => {
       return <p {...rest}>{children}</p>;
     };
 
-    TestComponent.defaultClassNames =
+    TestComponent.defaultClassName =
       "font-light text-lg tracking-wide mb-6 text-body";
 
     const Overloaded = withTailwindOverload(TestComponent);

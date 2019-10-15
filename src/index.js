@@ -14,7 +14,7 @@ export const overloadTailwind = (initialClasses, overloadClasses) => {
 export const withTailwindOverload = PassedComponent => {
   return ({ className, ...rest }) => {
     const overloadedClasses = overloadTailwind(
-      PassedComponent.defaultClassNames,
+      PassedComponent.defaultClassName,
       className
     );
     return <PassedComponent {...rest} className={overloadedClasses} />;
