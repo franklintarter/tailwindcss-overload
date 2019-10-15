@@ -8,5 +8,5 @@
 [build]: https://travis-ci.org/franklintarter/tailwindcss-overload
 [npm-badge]: https://raster.shields.io/npm/v/tailwind-overload.png?style=flat-square
 [npm]: https://www.npmjs.com/package/tailwind-overload
-
-[![Coverage Status](https://coveralls.io/repos/github/franklintarter/tailwindcss-overload/badge.svg?branch=master)](https://coveralls.io/github/franklintarter/tailwindcss-overload?branch=master)
+[coveralls-badge]: https://img.shields.io/coveralls/franklintarter/tailwindcss-overload/master.png?style=flat-square
+[coveralls]: https://coveralls.io/github/franklintarter/tailwindcss-overload
