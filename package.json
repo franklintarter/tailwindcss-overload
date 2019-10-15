@@ -1,7 +1,7 @@
 {
   "name": "tailwind-overload",
-  "version": "1.0.0",
-  "description": "tailwind-overload React component",
+  "version": "0.0.1",
+  "description": "tailwind-overload",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -24,15 +24,26 @@
     "react": "16.x"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.16.0",
     "nwb": "0.23.x",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "prettier": "^1.15.3",
+    "prettier-eslint": "^9.0.0"
   },
-  "author": "",
+  "author": "Franklin Tarter <franklintarter@gmail.com>",
   "homepage": "",
   "license": "MIT",
   "repository": "",
   "keywords": [
-    "react-component"
+    "react-component",
+    "tailwindcss"
   ]
 }
