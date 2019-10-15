@@ -30,6 +30,11 @@ describe("overloadTailwind", () => {
         initial: "flex text-gray-900 mb-6",
         overload: "text-blue-500",
         expected: "flex mb-6 text-blue-500"
+      },
+      {
+        initial: "flex text-gray-900 mb-6",
+        overload: "",
+        expected: "flex text-gray-900 mb-6"
       }
     ];
 

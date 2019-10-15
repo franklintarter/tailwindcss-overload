@@ -1,14 +1,6 @@
 import React from "react";
 import removeMatchingPlugins from "./removeMatchingPlugins";
 
-export const withTailwindOverload = () => {
-  return (
-    <div>
-      <h2>Welcome to React components</h2>
-    </div>
-  );
-};
-
 export const overloadTailwind = (initialClasses, overloadClasses) => {
   if (!overloadClasses) {
     return initialClasses;
@@ -17,4 +9,14 @@ export const overloadTailwind = (initialClasses, overloadClasses) => {
   const removed = removeMatchingPlugins(initialClasses, overloadClasses);
 
   return `${removed} ${overloadClasses}`.trim();
+};
+
+export const withTailwindOverload = PassedComponent => {
+  return ({ className, ...rest }) => {
+    const overloadedClasses = overloadTailwind(
+      PassedComponent.defaultClassNames,
+      className
+    );
+    return <PassedComponent {...rest} className={overloadedClasses} />;
+  };
 };
